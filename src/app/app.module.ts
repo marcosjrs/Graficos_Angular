@@ -5,6 +5,8 @@ import { ChartsModule } from 'ng2-charts';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { GraficoLinealComponent } from './components/grafico-lineal/grafico-lineal.component';
+import { RouterModule } from '@angular/router';
+import {appRouting} from './app.routes';
 
 @NgModule({
   declarations: [
@@ -14,6 +16,7 @@ import { GraficoLinealComponent } from './components/grafico-lineal/grafico-line
   ],
   imports: [
     BrowserModule,
+    appRouting,
     ChartsModule
   ],
   providers: [],
