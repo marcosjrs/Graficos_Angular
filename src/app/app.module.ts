@@ -10,6 +10,7 @@ import {appRouting} from './app.routes';
 import { GraficoBarraComponent } from './components/grafico-barra/grafico-barra.component';
 import { GraficoDonutsComponent } from './components/grafico-donuts/grafico-donuts.component';
 import { GraficoTartaComponent } from './components/grafico-tarta/grafico-tarta.component';
+import { GraficoRadarComponent } from './components/grafico-radar/grafico-radar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { GraficoTartaComponent } from './components/grafico-tarta/grafico-tarta.
     GraficoLinealComponent,
     GraficoBarraComponent,
     GraficoDonutsComponent,
-    GraficoTartaComponent
+    GraficoTartaComponent,
+    GraficoRadarComponent
   ],
   imports: [
     BrowserModule,
