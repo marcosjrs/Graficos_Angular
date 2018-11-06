@@ -2,15 +2,17 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
 
+Este proyecto fué siguiendo lo expuesto en ```https://valor-software.com/ng2-charts/``` y refactorizando.
+
 ## Enlaces y recordatorios
 
-http://www.chartjs.org/docs/latest/
+```http://www.chartjs.org/docs/latest/```
 
-https://valor-software.com/ng2-charts/
+ ```https://valor-software.com/ng2-charts/ ```
 
-Al final he añadido:
+Debido que la instalación habitual de chart.js con npm me estaba dando problemas al final he añadido en el index:
 
- ```<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>``` en el index.html
+ ```<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>``` 
 
 Y luego instalé mediante npm:
 
