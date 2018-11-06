@@ -2,6 +2,22 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
 
+## Enlaces y recordatorios
+
+http://www.chartjs.org/docs/latest/
+
+https://valor-software.com/ng2-charts/
+
+Al final he añadido:
+
+ ```<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>``` en el index.html
+
+Y luego instalé mediante npm:
+
+ ```npm install ng2-charts --save```
+
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
