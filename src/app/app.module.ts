@@ -9,6 +9,7 @@ import { RouterModule } from '@angular/router';
 import {appRouting} from './app.routes';
 import { GraficoBarraComponent } from './components/grafico-barra/grafico-barra.component';
 import { GraficoDonutsComponent } from './components/grafico-donuts/grafico-donuts.component';
+import { GraficoTartaComponent } from './components/grafico-tarta/grafico-tarta.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { GraficoDonutsComponent } from './components/grafico-donuts/grafico-donu
     NavbarComponent,
     GraficoLinealComponent,
     GraficoBarraComponent,
-    GraficoDonutsComponent
+    GraficoDonutsComponent,
+    GraficoTartaComponent
   ],
   imports: [
     BrowserModule,
