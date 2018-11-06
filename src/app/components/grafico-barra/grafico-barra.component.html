@@ -1,0 +1,12 @@
+<div class="m-4">
+  <div style="display: block">
+    <canvas baseChart
+            [datasets]="datosGrafico"
+            [labels]="lblMeses"
+            [options]="opcionesGrafico"
+            [legend]="mostrarLeyendasDeGrafico"
+            [chartType]="tipoDeGrafico"
+            (chartClick)="onClickGrafico($event)"></canvas>
+  </div>
+  <button class="btn btn-primary mt-3" (click)="darValoresAleatorios()">Desordenar valores</button>
+</div>

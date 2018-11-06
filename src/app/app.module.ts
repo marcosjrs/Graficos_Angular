@@ -7,12 +7,14 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { GraficoLinealComponent } from './components/grafico-lineal/grafico-lineal.component';
 import { RouterModule } from '@angular/router';
 import {appRouting} from './app.routes';
+import { GraficoBarraComponent } from './components/grafico-barra/grafico-barra.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    GraficoLinealComponent
+    GraficoLinealComponent,
+    GraficoBarraComponent
   ],
   imports: [
     BrowserModule,
