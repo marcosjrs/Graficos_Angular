@@ -8,13 +8,15 @@ import { GraficoLinealComponent } from './components/grafico-lineal/grafico-line
 import { RouterModule } from '@angular/router';
 import {appRouting} from './app.routes';
 import { GraficoBarraComponent } from './components/grafico-barra/grafico-barra.component';
+import { GraficoDonutsComponent } from './components/grafico-donuts/grafico-donuts.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     GraficoLinealComponent,
-    GraficoBarraComponent
+    GraficoBarraComponent,
+    GraficoDonutsComponent
   ],
   imports: [
     BrowserModule,

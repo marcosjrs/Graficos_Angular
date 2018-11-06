@@ -1,0 +1,12 @@
+<div style="display: block">
+  <canvas baseChart
+              [data]="datosGrafico"
+              [labels]="lblMeses"
+              [chartType]="tipoDeGrafico"
+              (chartClick)="onClickGrafico($event)"></canvas>
+</div>
+<div class="row">
+  <div class="col text-center mt-4">
+    <button class="btn btn-primary" (click)="darValoresAleatorios()">Dar valores aleatorios</button>
+  </div>
+</div>
